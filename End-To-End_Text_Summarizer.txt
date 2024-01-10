@@ -3,7 +3,7 @@ Hugging-Face (Transformer Model)
 
 1. GitHub Repository Setup.
 2. Project Template Creation (template.py) [Creating Folders in Pythonic Way].
-3. Setup Virtual Environment (using conda prompt),Project Setup and Requirements Installation (setup.py)
+3. Setup Virtual Environment (using conda prompt),Project Setup and Requirements Installation
 4. Logging, Utils, and Exception Module
 5. Project Workflows
 6. All Components NoteBooks
