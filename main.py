@@ -1,7 +1,18 @@
 
+from Text_Summarizer.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+
 from Text_Summarizer.logging import logger
 
-logger.info("Welcome to our Custom Log")
+STAGE_NAME=  "Data Ingestion Stage"
+try:
+    logger.info(f">>>>>>>>>>>>> Initialize {STAGE_NAME}  <<<<<<<<<<<<<")
+    data_ingestion = DataIngestionTrainingPipeline()
+    data_ingestion.main()
+    logger.info(f">>>>>>>>>>>>> Completed {STAGE_NAME} Successfully  <<<<<<<<<<<<<")
+except Exception as e:
+    logger.exception(e)
+    raise e
+
 
 
 
