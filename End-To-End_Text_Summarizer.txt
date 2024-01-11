@@ -18,7 +18,10 @@ Hugging-Face (Transformer Model)
 6. All Components NoteBooks
      {
 	01_data_ingestion.ipynb
-	o2_data_validation.ipynb
+	02_data_validation.ipynb
+	03_data_transformation.ipynb
+
+      }
 7. All Components Modular Code Implementation
 8. Training Pipeline(data ingestion, data transformation)
 9. Prediction Pipeline and User App Creation
